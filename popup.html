@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customize Webpage</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container">
+  <h2 class="heading">Customize Webpage</h2>
+  <label for="font">Font:</label>
+  <div class="form-group">
+    <!-- <label for="font">Font:</label> -->
+    <select id="font" class="select-box">
+      <!-- <option value="">Select Font</option> -->
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Tahoma">Tahoma</option>
+      <!-- Add more font options here -->
+    </select>
+    <button id="applyBtn1" class="btn">Apply</button>
+  </div>
+  <label for="color" class="subheading">Font Color:</label>
+  <div class="form-group">
+
+    <input type="color" id="color" class="color-input">
+    <button id="applyBtn2" class="btn">Apply</button>
+  </div>
+
+  <label for="headingFont" class="subheading">Heading Font:</label>
+  <div class="form-group">
+    
+    <select id="headingFont" class="select-box">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Tahoma">Tahoma</option>
+      <!-- Add more font options here -->
+    </select>
+    <button id="applyBtn3" class="btn">Apply</button>
+  </div>
+
+  <label for="headingColor" class="subheading">Heading Color:</label>
+  <div class="form-group">
+    <input type="color" id="headingColor" class="color-input">
+    <button id="applyBtn4" class="btn">Apply</button>
+  </div>
+
+  <label for="backgroundColor" class="subheading">Background Color:</label>
+  <div class="form-group">
+    <input type="color" id="backgroundColor" class="color-input">
+    <button id="applyBtn5" class="btn">Apply</button>
+  </div>
+  <!-- <button id="applyBtn" class="btn">Apply Changes</button> -->
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

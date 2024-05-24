@@ -1,0 +1,91 @@
+body {
+  width: 300px; /* Set a specific width, adjust as needed */
+  max-width: 100%; /* Ensures responsiveness */
+  margin: 0 auto;
+  text-align: center;
+  background-color: #344b65;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 45px;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding-top:10px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Default heading color */
+  font-family: Arial, sans-serif; /* Default heading font */
+}
+
+.form-group {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+select, input[type="color"] {
+  width: 100%;
+  /* padding: 8px; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+} 
+
+.select-box {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  height: 30px;
+  color: #fff;
+  padding: 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 80px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Stylish Styles */
+.heading {
+  color: #ff6b6b; /* Stylish heading color */
+  font-weight: bold;
+}
+
+.container {
+  background-color: #f0f0f0; /* Stylish background color */
+}
+
+
+label {
+  color: #3a1a71;
+  font-size: 14px;
+  font-weight: bold;
+}
